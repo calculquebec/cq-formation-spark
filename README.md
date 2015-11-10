@@ -10,7 +10,7 @@ sur votre ordinateur.
 ### Exécution sur une grappe de calcul
 
 1. Installez sur votre ordinateur [X2Go](http://wiki.x2go.org/doku.php).
-2. Configurez une session vers la grappe de calcul sur lequel se donne la formation. Consultez la vidéo [Créer une [Créer une session interactive avec X2Go](https://www.youtube.com/watch?v=8CwtbgQsrFg) pour savoir comment faire.
+2. Configurez une session vers la grappe de calcul sur lequel se donne la formation. Consultez la vidéo "[Créer une session interactive avec X2Go](https://www.youtube.com/watch?v=8CwtbgQsrFg)" pour savoir comment faire.
 
 ### Exécution sur votre ordinateur personnel
 
