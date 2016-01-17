@@ -13,11 +13,13 @@ Information for setting up for Calcul Québec's Spark workshop.
 
 ### A few days before the workshop
 
+1. Install the software requirements
+
 In a terminal / command prompt:
 
-1. Clone the workshop's repo:  
+2. Clone the workshop's repo:  
 ```git clone https://git.io/vz3sJ```
-2. Download the virtual machine:  
+3. Download the virtual machine:  
 ```vagrant box add calculquebec/spark```
 
 ### On the day of the workshop
