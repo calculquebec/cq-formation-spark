@@ -23,7 +23,8 @@ In a terminal / command prompt:
 ### On the day of the workshop
 
 In a terminal / command prompt:
-1. Change directory to where you cloned thwe course repo:  
+
+1. Change directory to where you cloned the course repo:  
 ```cd <FILL IN>/cq-formation-spark```
 2. Pull any recent changes from the repo:  
 ```git pull```
