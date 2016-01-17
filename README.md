@@ -30,4 +30,4 @@ In a terminal / command prompt:
 ```git pull```
 3. Launch the virtual machine:  
 ```vagrant up```
-4. Access the notebook URL : [http://localhost:8001/tree]
+4. Access the notebook URL : [http://localhost:8001/tree](http://localhost:8001/tree)
