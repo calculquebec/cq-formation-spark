@@ -17,16 +17,16 @@ In a terminal / command prompt:
 
 1. Clone the workshop's repo:  
 ```git clone https://git.io/vz3sJ```
-2. Download the virtual machine:
+2. Download the virtual machine:  
 ```vagrant box add calculquebec/spark```
 
 ### On the day of the workshop
 
 In a terminal / command prompt:
-1. Change directory to where you cloned thwe course repo:
-`cd <FILL IN>/cq-formation-spark`
-2. Pull any recent changes from the repo:
-`git pull`
+1. Change directory to where you cloned thwe course repo:  
+```cd <FILL IN>/cq-formation-spark```
+2. Pull any recent changes from the repo:  
+```git pull```
 3. Launch the virtual machine:  
-`vagrant up`
+```vagrant up```
 4. Access the notebook URL : [http://localhost:8001/tree]
