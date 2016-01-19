@@ -28,7 +28,7 @@ In a terminal / command prompt:
 
 1. Change directory to where you cloned the course repo:  
 ```cd <FILL IN>/cq-formation-spark```
-2. Discard any local changes:
+2. Discard any local changes:  
 ```git checkout -f .```
 2. Pull recent changes from the repo:  
 ```git pull```
