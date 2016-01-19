@@ -18,7 +18,7 @@ Information for setting up for Calcul Québec's Spark workshop.
 In a terminal / command prompt:
 
 2. Clone the workshop's repo:  
-```git clone https://git.io/vz3sJ```
+```git clone https://github.com/calculquebec/cq-formation-spark.git```
 3. Download the virtual machine:  
 ```vagrant box add calculquebec/spark```
 
