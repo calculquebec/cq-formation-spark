@@ -57,7 +57,7 @@ def url_path_to_dict(path):
 
     return d
 
-def get_app_dashboard_url(sc):
+def get_app_dashboard_url(sc, loc="", proxy=True):
     if not isinstance(sc, pyspark.SparkContext) or len(sc.master) == 0:
         raise Exception("get_dashboard_url requires a valid SparkContext as argument.")
     
@@ -66,4 +66,16 @@ def get_app_dashboard_url(sc):
     else:
         hostname = url_path_to_dict(sc.master)['host']
         url = "http://{hostname}:4040".format(hostname=hostname)
-    return url
+
+    if proxy:
+        import getpass
+        user = getpass.getuser()
+        url = "https://jupyter.calculquebec.ca/user/{}/userlp/{}/".format(user,
+                                                                          url)
+    if loc: 
+        url = "/".join([url, loc])
+
+    if not url.endswith('/'):
+        url = url + '/'
+
+    return  url
